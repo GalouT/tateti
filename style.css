@@ -1,0 +1,22 @@
+body{
+    font-size: 50px;
+}
+
+article{
+    display:grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+section{
+    height: 100px;
+    width: 100px;
+    border: solid rgb(31, 121, 142) 3px;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+}
